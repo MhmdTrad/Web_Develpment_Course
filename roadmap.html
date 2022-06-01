@@ -1,0 +1,105 @@
+<?php
+session_start();
+
+include("connection.php");
+include("functions.php");
+
+$user_data = check_login($con);
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Roadmap</title>
+    <style>
+     
+    </style>
+</head>
+<body>
+    <p class="hed">Welcome to our roadmap.<br> in order to find out what data science is, explore what we've done for you.</p>
+    <link rel="stylesheet" href="roadmap.css">
+
+    <img  src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20201204213538/How-to-Become-Data-Scientist.png" alt="" class="center">
+    <br>
+    <p>There are many questions that come to the mind of anyone new to the world of data science and they are:</p>
+    <ol>
+        <li>What is Data Science?</li>
+        <li>where do I start?</li>
+        <li>What techniques do I need to master?</li> 
+        <li>How can I become good in this field?</li>
+    </ol>
+    <h1 style="padding-top: 20px;">What is Data Science ?</h1>
+            <img src="https://www.dataquest.io/wp-content/uploads/2019/05/what-is-data-science-1.jpg" class="cc" alt="">
+            <p>Data science is the domain of study that deals with vast volumes of data using modern tools and techniques to find unseen patterns, 
+                derive meaningful information, and make business decisions.
+                Data science uses complex machine learning algorithms to build predictive models.                                                  The data used for analysis can come from many different sources and are presented in various formats.</p>
+    <h1>where do I start?</h1>
+    <p>
+        How do I start? <br>
+        Here we will help you how to get started and my roadmap will help you how to get started and will make it easy for you a lot
+        A roadmap is a way to help you find out what you will be studying as a data science student.
+        It will tell you the names of the topics that interest you and will start with them.
+    </p>
+    <h1>What techniques do I need to master?</h1>
+    <p>Through the roadmap it will show you what technologies you should study, stay focused with us</p>
+    <h1>How can I become good in this field?</h1>
+    <p>
+        Anything in life requires time, patience, diligence, and self-discipline.
+        In order to become creative in this field, you have to persevere and continue and not give up.
+        constant training, solving many problems, and working on many projects, you will become a good person in this field.
+        All you need is patience and taking the right path to reach the top ❤️
+    </p>
+    <hr>
+    <h2>Our Roadmap : </h2>
+    <img  src="roadmap.jpeg" alt="">
+    <hr>
+    <p>Now we will make a brief explanation of every part of our roadmap : </p>
+    <h2>Programming</h2>
+    <img src="https://tl360.b-cdn.net/wp-content/uploads/2015/09/Free-tutorial-websites-to-learn-how-to-code-696x387.jpg" class="cc" alt="">
+    <h3>Which programming language is best for data science?</h3>
+    <p>
+        1.Python <br>
+        2.R 
+     </p>
+    <h2>Statistics and mathematics</h2>
+    <img src="https://leverageedublog.s3.ap-south-1.amazonaws.com/blog/wp-content/uploads/2020/08/24201930/What-is-the-difference-between-Mathematics-and-Statistics_.jpg" class="cc" alt="">
+    <h3>what is the use of statistics and mathematics in data science?</h3>
+    <p>
+        Statistics and mathematics is used to process complex problems in the real world
+        so that Data Scientists and Analysts can look for meaningful trends and changes in Data.
+        In simple words, Statistics and mathematics can be used to derive meaningful insights from data by performing mathematical computations on it.
+    </p>
+    <h2>Data extraction</h2>
+    <img src="https://research.aimultiple.com/wp-content/uploads/2019/12/Major-Benefits-of-Outsourcing-Data-Conversion-Services.jpg" class="cc" alt="">
+    <p>Data extraction is the process of collecting or retrieving disparate types of data from a variety of sources, many of which may be poorly organized or completely unstructured.</p>
+    <h2>Data wrangling - also called data cleaning</h2>
+    <img src="https://i0.wp.com/erainnovator.com/wp-content/uploads/2020/11/Data-Wrangling.png?resize=930%2C620&ssl=1" class="cc" alt="">
+    <p>is the process of transforming and mapping data from one "raw" data form into another format with the intent of making it more appropriate and valuable for a variety of downstream purposes such as analytics.
+        Data analysts typically spend the majority of their time in the process of data wrangling compared to the actual analysis of the data.
+        </p>
+    <h2>Data engineering</h2>
+    <img src="https://lirp.cdn-website.com/599c5dd6/dms3rep/multi/opt/Data+Science+Banner-01-640w.jpg" class="cc" alt="">
+    <p>Data engineering is the practice of designing and building systems for collecting, storing, and analyzing data at scale</p>
+    <h2>EDA,Business acumen and storytelling</h2>
+    <h3>Exploratory Data Analysis (EDA)</h3>
+    <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/EDA/EDA_1.png" class="cc" alt="">
+    <p>is an approach to analyzing the data using visual techniques. It is used to discover trends, and patterns, or to check assumptions with the help of statistical summary and graphical representations.</p>
+    <h3>Business acumen</h3>
+    <img src="https://www.insperity.com/wp-content/uploads/Business-acumen-1200-630.png" class="cc" alt="">
+    <p>is someone's ability to understand business issues. It is the collection of both general and organization-specific knowledge about how things get done and why. It is a key characteristic of leadership and shows up in the questions someone asks and the decisions they make</p>
+    <h3>Storytelling</h3>
+    <img src="https://blog.graduateadmissions.wvu.edu/hs-fs/hubfs/Blog_Images/WVU%20Storytelling%20Infographic-min.png?width=600&name=WVU%20Storytelling%20Infographic-min.png" class="cc" alt="">
+    <p>is the ability to effectively communicate insights from a dataset using narratives and visualizations. It can be used to put data insights into the context and inspire action from your audience.</p>
+    <h2>Machine learning</h2>
+    <img src="https://miro.medium.com/max/1400/1*c_fiB-YgbnMl6nntYGBMHQ.jpeg" class="cc" alt="">
+    <p>Machine Learning basically automates the process of Data Analysis and makes data-informed predictions in real-time without any human intervention. A Data Model is built automatically and further trained to make real-time predictions. </p>
+    
+    <br>
+    <a href="main.php">Go Back To Main Page</a>
+    <a href="topics.html" class="dd">Go To topics Page </a>
+
+</body>
+</html>
